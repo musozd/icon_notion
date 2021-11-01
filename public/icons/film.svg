@@ -1,0 +1,10 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M42 6H6V42H42V6Z" stroke="black" stroke-miterlimit="10"/>
+<path d="M15 6V42" stroke="black" stroke-miterlimit="10"/>
+<path d="M33 6V42" stroke="black" stroke-miterlimit="10"/>
+<path d="M6 24H42" stroke="black" stroke-miterlimit="10"/>
+<path d="M6 15H15" stroke="black" stroke-miterlimit="10"/>
+<path d="M6 33H15" stroke="black" stroke-miterlimit="10"/>
+<path d="M33 33H42" stroke="black" stroke-miterlimit="10"/>
+<path d="M33 15H42" stroke="black" stroke-miterlimit="10"/>
+</svg>

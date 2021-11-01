@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .site-container {
+        @apply max-w-2xl mx-auto
+    }
+    .card-container {
+        @apply w-full bg-white border-2 border-gray-100 rounded-md p-8 flex flex-col justify-center items-center hover:shadow-lg
+    }
+} 
+
