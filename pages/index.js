@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import Form from '../components/form'
+
 
 function HomePage() {
   return (
@@ -120,13 +122,12 @@ function HomePage() {
           </Link>
         </div>
       </div>
+      <div>
+        <h1 className="text-2xl text-center font-medium">Comments</h1>
+      </div>
+      <Form></Form>
     </div>
   )
 }
 
-{/* To do
-  - copy a href
-  - copy clicked (check mark) (temporary)
-  -components 
-*/}
 export default HomePage

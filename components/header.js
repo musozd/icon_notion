@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 function Header() {
   return (
-    <header className="pl-6 py-6 bg-gray-100 mx-auto">
+    <header className="pl-6 py-6 bg-gradient-to-r from-white to-red-400 mx-auto">
       <nav className="space-x-4 flex justify-between items-center">
         <Link href="/" className="">
           <a>
