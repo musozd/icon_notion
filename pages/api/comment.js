@@ -5,12 +5,11 @@ export default async function handler(req, res) {
   //CREATE
   if (req.method === 'POST') {
     const { url, userToken, text } = req.body
-    //add comment to upstash
 
     if (!url || !userToken || !text)
       return res.status(400).json({ message: 'missing parameter error' })
 
-    // user verf.
+    // user verification.
 
     const userResponse = await fetch(
       `https://${process.env.NEXT_PUBLIC_AUTH0_AUTH0_DOMAIN}/userinfo`,

@@ -13,8 +13,8 @@ function Header() {
           <Link href="/">
             <a>Homepage</a>
           </Link>
-          <Link href="/">
-            <a>Icon packs</a>
+          <Link href="#comments">
+            <a>Comments</a>
           </Link>
         </div>
       </nav>

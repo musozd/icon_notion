@@ -57,6 +57,7 @@ export default function Form() {
 
   return (
     <form className="mt-10 m-2" onSubmit={onSubmit}>
+      <img src="" alt="" />
       <textarea
         rows="2"
         className="border border-gray-300 rounded w-full block px-2 py-2"
